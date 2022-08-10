@@ -17,7 +17,7 @@
 * [服务器部署](https://github.com/am-abudu/Qexo/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2)
 * [版本更新](https://github.com/am-abudu/Qexo/wiki/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0)
 ## 常见问题
-这里汇集了一些常见的问题，如果你遇到同样的问题，请先尝试如下的回答
+这里汇集了一些常见的问题，如果 你遇到同样的问题，请先尝试如下的回答
 ### 什么是 API 密钥
 在您完成初始化之后可在设置界面修改/创建 API 密钥，用于 Webhook 中的身份验证。若留空系统会随机生成一个 API 密钥
 ### Webhook 是什么
@@ -27,7 +27,7 @@ Qexo 中的 Webhook 指 /api/webhook 用于自动化操作，目前可用于自�
 2. 删除并重建数据库，注意区域**一定要选择 AWS / N. Virginia (us-east-1)**
 ### 安装/更新后出现 5xx 错误
 Qexo 每个 Release 都经过 Dev 分支的测试，一般情况下不会出现较大问题，如果你遇到了500等错误，请尝试以下步骤
-1. 检查数据库配置
+1. 检查数据库配置5
 2. 清除浏览器缓存
 3. 在高级设置中点击“修复”按钮
 4. 若无法登录请使用API: yoursite.com/pub/fix?token={$APIKEY}
